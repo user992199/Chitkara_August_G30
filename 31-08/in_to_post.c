@@ -71,7 +71,7 @@ void in_to_post(char arr[]){
 		// ignore white spaces
 		else if(arr[i] == ' ' || arr[i] == '\t') continue;
 		// if we have an opening bracket
-		// simpley push it in the stack
+		// simply push it in the stack
 		else if(arr[i] == '('){
 			push(&s, arr[i]);
 		}
